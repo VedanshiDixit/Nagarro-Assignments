@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/bg.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .images {
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('img/csgo-0.png') center/cover;
+    border-radius: 2rem;
+    box-shadow: 3px 7px grey;
+    position: relative;
+  }
+  
+  #btn {
+    background: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(60, 70, 247);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 2px black;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transition: all 1s ease-in;
+    cursor: pointer;
+  }
+  .PrevBtn {
+    left: 0;
+    transform: translate(-50%,-50%);
+
+  }
+  .NextBtn {
+    right: 0;
+    transform: translate(50%,-50%);
+  }
+  
+  #btn:active {
+    background: grey;
+    box-shadow: 1px 1px grey;
+  }
+  
+  #btn:hover {
+    background: rgb(60, 70, 247);
+    color: white;
+  }
