@@ -1,0 +1,49 @@
+#box{
+    position: relative;
+    background-color: rgb(219, 219, 219);
+    height: 22rem;
+    width: 40rem;
+    visibility: hidden;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+h3{
+    color: #1f67e4;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.clicks{
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+    border: 1px solid #e0e0e0;
+    background: #fdfdfd;
+    box-shadow: 0.1em 0.2em 0.3em #cacaca;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+#box.show{
+    visibility: visible;
+}
+.btn{
+    margin-top: 1rem;
+    position: fixed;
+}
+#crossmark{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    #box {
+      width: 20rem;
+    }
+    h3{
+        margin-bottom: 2.5rem;
+        margin-top: 0.5rem;
+    }
+}
