@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: verdana;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(94,200,250);
+    background: linear-gradient(90deg, rgba(94,200,250,1) 21%, rgba(155,219,251,1) 49%, rgba(227,245,255,1) 83%);
+  }
+  .container {
+    height: 80vh;
+    width: 22rem;
+    background: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    overflow-y: auto;
+  }
+  .ip{
+    display: flex;
+    gap: 0.4rem;
+  }
+  #input {
+    height: 3rem;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    background: rgb(56, 124, 173);
+    color: #fff;
+    padding: 0 1em;
+    margin: 1em 0;
+  }
+  #input::placeholder {
+    color: #bbb;
+  }
+ 
+  #addBtn{
+    height: 2.8em;
+    width: 15%;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(192, 229, 255) ;
+    border: none;
+    border-radius: 0.3em;
+    color: rgb(24, 78, 117);
+    cursor: pointer;
+    padding: 0 1em;
+    margin: 1em 0;
+  }
+  ul {
+    background: #eee;
+    color: #333;
+    height: 80%;
+    border-radius: 0.3em;
+    padding: 2em 1.5em;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  ul .fa-check,
+  .fa-trash {
+    cursor: pointer;
+  }
+  ul li{
+    display: flex;
+    justify-content: space-between;
+    white-space: normal;
+    word-break: break-all;
+    margin-bottom: 0.5em;
+  }
+  ul .fa-check {
+    right: 40px;
+    color: green;
+  }
+  ul .fa-trash {
+    right: 40px;
+    color: red;
+  }
+  .trashBtn{
+    border: none;
+  }
