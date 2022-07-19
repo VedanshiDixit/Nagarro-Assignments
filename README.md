@@ -13,3 +13,7 @@ Copy To Cliboard  -> https://vedanshidixit.github.io/Nagarro-Assignments/CopyToC
 To-Do (Javascript) -> https://vedanshidixit.github.io/Nagarro-Assignments/ToDoApp-JS
 
 To-Do (jQuery) -> https://vedanshidixit.github.io/Nagarro-Assignments/ToDoApp-jQuery
+
+Form Popup -> https://vedanshidixit.github.io/Nagarro-Assignments/Form-Popup
+
+Form Validation -> https://vedanshidixit.github.io/Nagarro-Assignments/Form-Popup
