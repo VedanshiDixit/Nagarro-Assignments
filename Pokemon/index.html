@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokemon-Website</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      gap: 10vh;
+      background-image: linear-gradient(-135deg, rgba(146, 211, 242, 1) 21%, rgba(202, 234, 250, 1) 49%, rgba(255, 255, 255, 1) 83%);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    #detail,
+    .info {
+      display: flex;
+    }
+
+    #video {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+    }
+
+    #wiki {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      color: rgb(19, 19, 151)
+    }
+
+    p {
+      letter-spacing: 0.1rem;
+      text-align: justify;
+
+    }
+
+    img {
+      height: 50vh;
+      width: 30vw;
+      object-fit: cover;
+      margin: -50px 80px 0 20px;
+    }
+
+    a {
+      margin-left: 17vw;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      border: 0.1rem solid blue;
+      border-radius: 0.3rem;
+      background-color: transparent;
+      cursor: pointer;
+      transition: all 1s ease-in-out;
+      font-weight: bold;
+    }
+
+    button:hover {
+      border: 0.1rem solid white;
+      background-color: rgb(73, 255, 255);
+    }
+
+    iframe{
+      height: 60vh;
+      width: 35vw;
+    }
+
+    .form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card{
+      height: 60vh;
+      width: 25vw;
+      border: 0.1rem solid blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media only screen and (max-width: 600px) {
+      #detail {
+        display: flex;
+        flex-direction: column;
+      }
+      #ash,#gary{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+      }
+      .info{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+      }
+      iframe{
+        height: 60vh;
+        width: 90vw;
+    }
+    .card{
+      height: 70vh;
+      width: 90vw;
+    }
+    a {
+      margin-left: 8vw;
+    }
+    }
+  </style>
+</head>
+
+<body style="margin: 0 5vw">
+  <div id="pokemon" >
+    <h1 style="font-size: 4rem;">
+     <i>Pokemon</i> 
+    </h1>
+    <p>
+      Ten-year-old Ash aspires to be the greatest Pokémon (pocket monster)
+      trainer in the world. To do this, he enlists the help of many friends,
+      and his own Pokémon, Pikachu. Together, they must search their world for
+      new Pokémon, while avoiding the likes of Team Rocket, as well as other
+      evil organizations, as well as battling rivals, and meeting legendary
+      Pokémon.
+    </p>
+  </div>
+
+  <div id="ash">
+    <h1>Ash Ketchum</h1>
+    <div id="detail">
+      <img src="Ash.png" alt="" />
+      <p>
+        Ash Ketchum, known as Satoshi in Japan, is a fictional character in
+        the Pokémon franchise owned by Nintendo. He is the protagonist of the
+        Pokémon anime and certain manga series as well as on various
+        merchandise related to the franchise. Due to the huge popularity,
+        success, and longevity of the Pokémon anime series around the world
+        since its debut, Ash has gone on to become one of the most well-known
+        and recognizable fictional characters of all-time.
+        <br> <br>
+        He is a Pokémon Trainer from Pallet Town whose goal is to become a Pokémon Master. His starter Pokémon was a
+        Pikachu that he received from Professor Oak after arriving late at his laboratory. On his journeys around the
+        Pokémon world, he's been accompanied by a multitude of close friends. In Pokémon the Series: Sun & Moon, he
+        becomes the first Champion of the Alola region's Pokémon League. In Pokémon Journeys: The Series, he becomes one
+        of the eight best Trainers in the world within the World Coronation Series.
+      </p>
+    </div>
+    <a href="./ash.html">
+      <button id="button1">Ash's Pokemon</button>
+    </a>
+  </div>
+  <div id="gary">
+    <h1>Gary Oak</h1>
+    <div id="detail">
+      <img src="Gary.webp" alt="" />
+      <p>
+        Ash Ketchum, known as Satoshi in Japan, is a fictional character in
+        the Pokémon franchise owned by Nintendo. He is the protagonist of the
+        Pokémon anime and certain manga series as well as on various
+        merchandise related to the franchise. Due to the huge popularity,
+        success, and longevity of the Pokémon anime series around the world
+        since its debut, Ash has gone on to become one of the most well-known
+        and recognizable fictional characters of all-time.
+        <br> <br>
+        ary has been a neighbor of Ash Ketchum since they were both young. At one time, they seemed to be friends and
+        went to see movies together, as seen in Lights, Camerupt, Action!.
+
+        Shortly before beginning their journeys, Gary and Ash found an old Poké Ball while fishing. The two boys began
+        fighting over who would get to keep the Poké Ball but ended up breaking it in half. Since then, they decided to
+        keep the two separate pieces for themselves. It was revealed in The Ties That Bind that they still carried the
+        pieces with them.
+      </p>
+    </div>
+    <a href="./gary.html">
+      <button id="button2" onclick="images(this)">Gary's Pokemon</button>
+    </a>
+  </div>
+  <div class="info">
+    <div id="video">
+      <iframe src="video.mp4" frameborder="0" height="500px" width="500px" frameborder="0"
+        allow="accelerometer; autoplay = " false"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen;">
+      </iframe>
+    </div>
+
+    <div id="wiki">
+      <iframe src="https://en.wikipedia.org/wiki/Pok%C3%A9mon" frameborder="0" 
+        title="Pokemon wikipedia" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen;">
+      </iframe>
+    </div>
+  </div>
+
+<div class="form">
+  <h1>Feedback</h1>
+  <div class="card">
+    <form>
+      <label for="name">Name:</label>
+      <br>
+      <input type="text">
+      <br><br>
+      <label for="password">Password: </label>
+      <br>
+      <input type="password">
+      <br><br>
+      <label for="Feedback">Feedback: </label>
+      <br>
+      <textarea name="Feedback" id="" cols="30" rows="10" placeholder="Give your Feedback"></textarea>
+      <br><br>   
+      <input type="submit">
+      <br><br><br><br>
+    </form>  
+  </div>
+</div>
+<br><br><br>
+</body>
+<script src="./script.js"></script>
+
+</html>
