@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 5vh;
+      }
+      .images {
+        height: 90vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 4rem;
+        background-color: beige;
+      }
+      img {
+        display: flex;
+        height: 12rem;
+        width: 12rem;
+        display: flex;
+        object-fit:cover ;
+      }
+      @media only screen and (max-width: 600px) {
+        .images{
+          height: 150vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="images">
+      <img src="../images/balba.jfif" alt="" />
+      <img src="../images/country_detail_pokemon.png" alt="" />
+      <img src="../images/pokemon.png" alt="" />
+      <img src="../images/pokemon_rowlet.png" alt="" />
+    </div>
+  </body>
+</html>
