@@ -16,6 +16,6 @@ To-Do (jQuery) -> https://vedanshidixit.github.io/Nagarro-Assignments/ToDoApp-jQ
 
 Form Popup -> https://vedanshidixit.github.io/Nagarro-Assignments/Form-Popup
 
-Form Validation -> https://vedanshidixit.github.io/Nagarro-Assignments/FormValidation`
+Form Validation -> https://vedanshidixit.github.io/Nagarro-Assignments/FormValidation
 
-Number Facts -> https://vedanshidixit.github.io/Nagarro-Assignments/Number%20Facts`
+Number Facts -> https://vedanshidixit.github.io/Nagarro-Assignments/Number%20Facts
