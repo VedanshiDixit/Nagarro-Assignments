@@ -34,7 +34,7 @@ async function getJokes() {
   const jokedata = new Jokesdata({
     attachments: [
       {
-        text: response.attachments[0].fallback,
+        text: response.attachments[0].text,
       },
     ],
     response_type: response.response_type,
