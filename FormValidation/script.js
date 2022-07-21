@@ -94,7 +94,8 @@ $(document).ready(function (){
   }
 
   $('#btn').click(function(){
-    validation();
+    if(validation()==true) return true;
+    else return false;
   });
 
   function validation(){
