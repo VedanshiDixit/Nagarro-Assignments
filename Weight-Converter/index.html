@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Weight Converter</title>
+</head>
+
+<body class="bg-dark d-flex">
+  <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card d-flex justify-content-center align-items-center" style="width: 18rem;">
+      <img class="card-img-top" src="download.png" alt="Card image cap">
+      <input type="text" class="mt-5 numberInput" placeholder="Enter weight in Grams">
+      <button type="button" id="calculator" class="btn btn-danger mt-4 w-50">Calculate</button>
+      <div class="card-body">
+        <p class="card-text output">Kilogram:</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    const ip = document.querySelector(".numberInput");
+    const calculator = document.querySelector('#calculator')
+    const output = document.querySelector('.output')
+    calculator.addEventListener('click', () => {
+      let kgWeight = ip.value / 1000.0;
+      output.innerText = "Kilogram: " + kgWeight;
+    })
+  </script>
+</body>
+
+</html>
