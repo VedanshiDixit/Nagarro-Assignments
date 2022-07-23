@@ -20,3 +20,7 @@ Form Validation -> https://vedanshidixit.github.io/Nagarro-Assignments/FormValid
 Number Facts -> https://vedanshidixit.github.io/Nagarro-Assignments/Number%20Facts
 
 Weight Converter -> https://vedanshidixit.github.io/Nagarro-Assignments/Weight-Converter
+
+Calculator -> https://vedanshidixit.github.io/Nagarro-Assignments/Calculator
+
+Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder
