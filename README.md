@@ -23,4 +23,4 @@ Weight Converter -> https://vedanshidixit.github.io/Nagarro-Assignments/Weight-C
 
 Calculator -> https://vedanshidixit.github.io/Nagarro-Assignments/Calculator
 
-Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder+
+Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder
