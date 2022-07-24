@@ -75,8 +75,7 @@ $(document).ready(function () {
         }
     
         $(".btn").click(function () {
-            if(validation()==true) return true;
-            else return false;
+            validation();
         });
     
         function validation() {
