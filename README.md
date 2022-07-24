@@ -23,4 +23,6 @@ Weight Converter -> https://vedanshidixit.github.io/Nagarro-Assignments/Weight-C
 
 Calculator -> https://vedanshidixit.github.io/Nagarro-Assignments/Calculator
 
+Cricket Live Score -> https://vedanshidixit.github.io/Nagarro-Assignments/CricketLiveScores
+
 Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder

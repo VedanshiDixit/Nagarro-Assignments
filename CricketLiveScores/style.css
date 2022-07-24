@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  height: 3rem;
+  width: 3rem;
+}
+#card {
+  max-width: 20rem;
+  width: 100%;
+  transition: transform 0.5s;
+}
+#card:hover {
+  transform: scale(1.05);
+}
+#content {
+  background: rgb(37, 35, 35);
+  color: white;
+}
