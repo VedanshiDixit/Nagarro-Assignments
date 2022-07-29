@@ -29,4 +29,4 @@ Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder
 
 Theme Changer -> https://vedanshidixit.github.io/Nagarro-Assignments/Color-switch
 
-Theme Changer -> https://vedanshidixit.github.io/Nagarro-Assignments/Tweet-login
+Tweet Login  -> https://vedanshidixit.github.io/Nagarro-Assignments/Tweet-login
