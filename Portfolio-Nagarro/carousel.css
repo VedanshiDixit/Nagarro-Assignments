@@ -16,6 +16,8 @@
   transition: all 0.3s ease-in-out;
   width: 10vw;
   z-index: 0;
+  object-fit: cover;
+
 }
 
 .gallery-item-1 {
@@ -139,3 +141,4 @@
   margin: 0 16px;
   width: 10px;
 }
+

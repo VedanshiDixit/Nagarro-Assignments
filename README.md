@@ -1,6 +1,4 @@
 
-All Projects -> https://vedanshidixit.github.io/Nagarro-Assignments/
-
 Pokemon Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Pokemon
 
 Portfolio Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Portfolio-Nagarro
@@ -30,3 +28,7 @@ Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder
 Theme Changer -> https://vedanshidixit.github.io/Nagarro-Assignments/Color-switch
 
 Tweet Login  -> https://vedanshidixit.github.io/Nagarro-Assignments/Tweet-login
+
+SMTP Form  -> https://vedanshidixit.github.io/Nagarro-Assignments/SMTP-form
+
+Weather App  -> https://vedanshidixit.github.io/Nagarro-Assignments/weather-api
