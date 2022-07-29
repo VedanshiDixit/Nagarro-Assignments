@@ -3,7 +3,7 @@ All Projects -> https://vedanshidixit.github.io/Nagarro-Assignments/
 
 Pokemon Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Pokemon
 
-Portfolio Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Portfolio%20Landing
+Portfolio Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Portfolio-Nagarro
 
 Image Slider -> https://vedanshidixit.github.io/Nagarro-Assignments/Image%20Slider
 
@@ -26,3 +26,7 @@ Calculator -> https://vedanshidixit.github.io/Nagarro-Assignments/Calculator
 Cricket Live Score -> https://vedanshidixit.github.io/Nagarro-Assignments/CricketLiveScores
 
 Movie Finder -> https://vedanshidixit.github.io/Nagarro-Assignments/movie-finder
+
+Theme Changer -> https://vedanshidixit.github.io/Nagarro-Assignments/Color-switch
+
+Theme Changer -> https://vedanshidixit.github.io/Nagarro-Assignments/Tweet-login
