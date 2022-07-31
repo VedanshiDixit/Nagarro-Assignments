@@ -1,7 +1,7 @@
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', 'next'];
-const galleryItems = document.querySelectorAll('.gallery-item');
+const galleryItems = document.querySelectorAll('.gi');
 
 class Carousel {
   constructor(container, items, controls) {
@@ -13,19 +13,33 @@ class Carousel {
   // Update css classes for gallery
   updateGallery() {
     this.carouselArray.forEach(el => {
-      el.classList.remove('gallery-item-1');
-      el.classList.remove('gallery-item-2');
-      el.classList.remove('gallery-item-3');
-      el.classList.remove('gallery-item-4');
-      el.classList.remove('gallery-item-5');
-      el.classList.remove('gallery-item-6');
+      el.classList.remove('gi1');
+      el.classList.remove('gi2');
+      el.classList.remove('gi3');
+      el.classList.remove('gi4');
+      el.classList.remove('gi5');
+      el.classList.remove('gi6');
       el.classList.remove('gallery-item-7');
       el.classList.remove('gallery-item-8');
       el.classList.remove('gallery-item-9');
+      el.classList.remove('gallery-item-10');
+      el.classList.remove('gallery-item-11');
+      el.classList.remove('gallery-item-12');
+      el.classList.remove('gallery-item-13');
+      el.classList.remove('gallery-item-15');
+      el.classList.remove('gallery-item-16');
+      el.classList.remove('gallery-item-17');
+      el.classList.remove('gallery-item-18');
+      el.classList.remove('gallery-item-19');
+      el.classList.remove('gallery-item-20');
+      el.classList.remove('gallery-item-21');
+      el.classList.remove('gallery-item-22');
+      el.classList.remove('gallery-item-23');
+      el.classList.remove('gallery-item-24');
     });
 
-    this.carouselArray.slice(0, 9).forEach((el, i) => {
-      el.classList.add(`gallery-item-${i+1}`);
+    this.carouselArray.slice(0, 24).forEach((el, i) => {
+      el.classList.add(`gi${i+1}`);
     });
   }
 
