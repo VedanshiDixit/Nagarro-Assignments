@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tangerine:wght@700&display=swap');
+
+
+:root {
+  --blue: #0300c7;
+}
+html {
+  font-size: 16px;
+  
+}
+body {
+  background: rgb(29, 28, 28);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+#navbar {
+  color: rgb(29, 28, 28);
+  display: flex;
+  background-color: rgb(29, 28, 28);
+}
+#logo {
+  color: var(--blue);
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  font-family: 'Tangerine', cursive;
+  flex: 0.3;
+  margin-left: 5rem;
+}
+
+#iconitems{
+    display: flex;
+    gap: 1rem;
+    margin-right: 5rem;
+}
+#navbarSupportedContent{
+    flex: 0.7;
+    display: flex;
+    justify-content: space-between;
+}
+#navitem-1,
+#navitem-2,
+#navitem-3,
+#navitem-4{
+    color: #fff;
+}
+
+#navitem-3,
+#navitem-1{
+    outline: none;
+}
+
+.listitem-1{
+    position:static !important;
+}
+
+/* dropdown menues */
+.ddm-1{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top:0px !important;
+    width:100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+}
+.ddi1{
+    height: 12rem;
+    width: 25rem;
+}
+.ddm-2{
+    background-color: black;
+}
+.ddi2{
+    color: #fff;
+}
+
+/* searchbox */
+#searchbox{
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    padding: 1rem;
+}
+
+/* font awesome icons */
+.fa-solid{
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    color: var(--blue);
+}
+
+/* slide show controls */
+.prev{
+    position: absolute;
+    left: 1rem;
+}
+.next{
+    position: absolute;
+    right: 1rem;
+}
+.fontIcon{
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
+/* biggest launches */
+#biggest-launches,
+#best-sellers,
+#trending-items{
+    margin: 4rem 2rem 0 2rem;
+}
+
+.card-title,
+.card-text{
+    color: #000;
+}
+
+/* card controls */
+.cardprev{
+    left: 1rem;
+}
+.cardnext{
+    right: .3rem;
+}
+.cardIcon{
+    position: absolute;
+    top: 10rem;
+    height: 3rem;
+    width: 3rem;
+    z-index: 1;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--blue);
+}
+.cardIcon:hover{
+    color: #fff;
+}
+
+
+.card{
+    background-color: rgb(245, 245, 245);
+
+}
+/* card img */
+.card-img-top{
+    height: 15rem;
+    width: 17rem;
+    margin-left: 3rem;
+}
+/* card content */
+.card-body{
+    height: 40%;
+    width: 90%;
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 1rem;
+
+}
+.card-text{
+    font-weight: 800;
+}
+.card-title{
+    height: 3rem;
+    border-bottom: 1px solid rgb(164, 164, 164);
+    font-weight: 800;
+}
+#st{
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+
+
+/* button */
+.btn{
+    background-color: var(--blue);
+    border:none;
+    outline: none;
+}

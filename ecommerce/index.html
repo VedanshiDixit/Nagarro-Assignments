@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Ecommerce</title>
+</head>
+
+<body>
+  <div class="conatainer" id="container">
+    <nav class="navbar navbar-expand" id="navbar">
+      <!-- logo -->
+      <a class="navbar-brand" href="#" id="logo">Shophere.</a>
+
+      <!-- content of navbar -->
+      <div id="navbarSupportedContent">
+        <!-- list items navbar -->
+        <div id="listitems">
+          <ul class="navbar-nav">
+            <!-- shop item -->
+            <li class="nav-item dropdown listitem-1 mr-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navitem-1" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Shop
+              </a>
+              <div class="dropdown-menu ddm-1" aria-labelledby="navbarDropdown">
+                <a href="#"><img src="./dropdown-img/img1.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img1.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img3.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img4.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img5.webp" alt="" class="ddi1" /></a>
+                <a href="">
+                  <img src="./dropdown-img/img6.webp" alt="" class="ddi1" /></a>
+                <a href="">
+                  <img src="./dropdown-img/img7.webp" alt="" class="ddi1" />
+                </a>
+                <a href=""><img src="./dropdown-img/img8.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img9.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img10.webp" alt="" class="ddi1" /></a>
+                <a href=""><img src="./dropdown-img/img11.webp" alt="" class="ddi1" /></a>
+              </div>
+            </li>
+
+            <!-- daily deals item -->
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#" id="navitem-2">Daily Deals</a>
+            </li>
+
+            <!-- offer zone item -->
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#" id="navitem-3">Offer Zone</a>
+            </li>
+
+            <!-- second dropdown "more" item -->
+            <li class="nav-item dropdown mr-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navitem-4" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu ddm-2" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item ddi2" href="#">Gifting</a>
+                <a class="dropdown-item ddi2" href="#">Blogs</a>
+                <a class="dropdown-item ddi2" href="#">Careers</a>
+                <a class="dropdown-item ddi2" href="#">Earn</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- searchbox + icons -->
+        <div id="iconitems">
+          <form class="my-2 my-lg-0">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchbox" />
+          </form>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-gift"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./slideshow-img/img1.webp" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./slideshow-img/img2.webp" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./slideshow-img/img3.webp" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./slideshow-img/img4.webp" alt="Third slide" />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon fontIcon prev" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon fontIcon next" aria-hidden="true"></span>
+      </a>
+    </div>
+
+
+
+    <div id="biggest-launches">
+      <h2 class="text-center font-weight-bold mb-5">
+        Biggest Launches. Dopest Products.
+      </h2>
+
+      <div id="#card-div" class="carousel slide carousel-multi-item" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active d-flex justify-content-around">
+            <div style="float: left; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img1.webp"
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Airdopes X</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn ">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div style="float: left ; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img2.webp"
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Neck Band X</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div style="float: left ; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img3.webp"
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Smart Watch Z</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div style="float: left; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img4.webp" 
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Smart Waatch Y</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div id="best-sellers">
+      <h2 class="text-center font-weight-bold mb-5">
+        Best Sellers
+      </h2>
+
+      <div id="card-div2" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <!--Controls-->
+        <div class="controls-top">
+          <a class="btn-floating cardprev cardIcon" href="#card-div2" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+          <a class="btn-floating cardnext cardIcon" href="#card-div2" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+        </div>
+        <!--/.Controls-->
+
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img5.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Head Phones Z</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img6.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Head Phones Y</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img7.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Head Phones X</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img8.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Neck Band Y</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!--/.First slide-->
+
+          <!--Second slide-->
+          <div class="carousel-item">
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img9.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Neck Band Z</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img10.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Airdopes Y</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img11.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Airdopes Y</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img12.webp"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Head Phones A</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div id="trending-items">
+      <h2 class="text-center font-weight-bold mb-5">
+        Trending Items
+      </h2>
+
+      <div id="#card-div" class="carousel slide carousel-multi-item" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active d-flex justify-content-around">
+            <div style="float: left; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img1.webp"
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Airdopes X</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div style="float: left ; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img9.webp"
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Neck Band X</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div style="float: left ; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img3.webp"
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Smart Watch Z</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div style="float: left; width: 23rem;">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./cardCarousel-img/img4.webp" 
+                  alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Smart Waatch Y</h4>
+                  <p class="card-text">
+                    $12.8 &nbsp; <span id="st">  $18</span>
+                    <br>
+                    You Save : $5.2
+                  </p>
+                  <a class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center text-white mt-5">
+      <!-- Grid container -->
+      <div class="container p-4">
+
+         <!-- Section: Text -->
+         <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+            eum harum corrupti dicta, aliquam sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+       
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-white mb-4">
+                  <input type="email" id="form5" class="form-control" />
+                  <label class="form-label" for="form5"></label>
+                </div>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+    
+       
+    
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Shop</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Airdopes</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Neckband</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Home Audio</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Wireless Speakers</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Help</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-white">Track Your Order
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Warranty & Support</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Service Centers</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">FAQs</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Policy</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Return Policy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Why Buy Direct</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Terms of Service</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!-- Grid column -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Company</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">About boAt</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">News</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Read Our Blog</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+         <!-- Section: Social media -->
+         <section class="mb-4 mt-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+    
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="vedu1193@gmail.com">Vedanshi Dixit</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
