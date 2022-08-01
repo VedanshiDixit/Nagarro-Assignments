@@ -1,7 +1,6 @@
 const main = document.querySelector("#main");
 const head = document.querySelector("#head");
-const url =
-  "https://api.cricapi.com/v1/currentMatches?apikey=5263f7e5-c639-41b3-a6aa-9a6eb8b4dd0a&offset=0";
+const url = "https://api.cricapi.com/v1/currentMatches?apikey=5263f7e5-c639-41b3-a6aa-9a6eb8b4dd0a&offset=0";
 
 head.innerHTML = `<div class="card text-center d-flex align-self-start mt-5">
                     <div class="card-body">
@@ -12,7 +11,6 @@ fetch(url)
   .then((res) => res.json())
   .then((data) => {
     const matches = data.data;
-
     for (let i = 0; i < matches.length; i++) {
       const match = matches[i];
       main.innerHTML += `
