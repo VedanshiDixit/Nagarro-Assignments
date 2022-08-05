@@ -1,0 +1,20 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor ./server.js"
+  },
+  "author": "Vedanshi Dixit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "supervisor": "^0.12.0"
+  }
+}
