@@ -331,8 +331,12 @@ h5{
 }
 .bl-top{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 5rem;
+}
+#one,#two,#three{
+  display: flex;
+  flex-direction: row;
   gap: 2rem;
 }
 .bl-bottom{

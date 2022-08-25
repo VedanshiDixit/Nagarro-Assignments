@@ -36,9 +36,11 @@ class Carousel {
       el.classList.remove('gallery-item-22');
       el.classList.remove('gallery-item-23');
       el.classList.remove('gallery-item-24');
+      el.classList.remove('gallery-item-25');
+      el.classList.remove('gallery-item-26');
     });
 
-    this.carouselArray.slice(0, 24).forEach((el, i) => {
+    this.carouselArray.slice(0, 26).forEach((el, i) => {
       el.classList.add(`gi${i+1}`);
     });
   }

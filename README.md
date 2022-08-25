@@ -1,7 +1,10 @@
+Portfolio Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Portfolio-Nagarro
+
+Shophere -> https://shophere-ved27.herokuapp.com/
+
+Tweeter -> https://tweeter-ved27.herokuapp.com/landing
 
 Pokemon Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Pokemon
-
-Portfolio Website -> https://vedanshidixit.github.io/Nagarro-Assignments/Portfolio-Nagarro
 
 Image Slider -> https://vedanshidixit.github.io/Nagarro-Assignments/Image%20Slider
 
@@ -33,4 +36,4 @@ SMTP Form  -> https://vedanshidixit.github.io/Nagarro-Assignments/SMTP-form
 
 Weather App  -> https://vedanshidixit.github.io/Nagarro-Assignments/weather-api
 
-Ecommerce  -> https://vedanshidixit.github.io/Nagarro-Assignments/ecommerce
+boat clone  -> https://vedanshidixit.github.io/Nagarro-Assignments/ecommerce
