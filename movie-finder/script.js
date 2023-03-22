@@ -9,7 +9,7 @@ name.addEventListener("keypress", (e) => {
 
 function getMovieDetails() {
   const movieName = name.value;
-  const URL = `https://www.omdbapi.com/?t=${movieName}&apikey=1327501b`;
+  const URL = `https://www.omdbapi.com/?t=${movieName}&apikey=1327501`;
   if (movieName !== "") {
     fetch(URL)
       .then((res) => res.json())
